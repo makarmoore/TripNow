@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3575338715B2ACA30074BD13 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3575338615B2ACA30074BD13 /* UIKit.framework */; };
+		3575338915B2ACA30074BD13 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3575338815B2ACA30074BD13 /* Foundation.framework */; };
+		3575338B15B2ACA30074BD13 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3575338A15B2ACA30074BD13 /* CoreGraphics.framework */; };
+		3575339115B2ACA30074BD13 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3575338F15B2ACA30074BD13 /* InfoPlist.strings */; };
+		3575339315B2ACA30074BD13 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3575339215B2ACA30074BD13 /* main.m */; };
+		3575339715B2ACA30074BD13 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3575339615B2ACA30074BD13 /* AppDelegate.m */; };
+		3575339A15B2ACA30074BD13 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3575339815B2ACA30074BD13 /* MainStoryboard_iPhone.storyboard */; };
+		3575339D15B2ACA30074BD13 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3575339B15B2ACA30074BD13 /* MainStoryboard_iPad.storyboard */; };
+		357533A015B2ACA30074BD13 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3575339F15B2ACA30074BD13 /* MasterViewController.m */; };
+		357533A315B2ACA30074BD13 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 357533A215B2ACA30074BD13 /* DetailViewController.m */; };
+		357533AB15B2ACA30074BD13 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 357533AA15B2ACA30074BD13 /* SenTestingKit.framework */; };
+		357533AC15B2ACA30074BD13 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3575338615B2ACA30074BD13 /* UIKit.framework */; };
+		357533AD15B2ACA30074BD13 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3575338815B2ACA30074BD13 /* Foundation.framework */; };
+		357533B515B2ACA30074BD13 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 357533B315B2ACA30074BD13 /* InfoPlist.strings */; };
+		357533B815B2ACA30074BD13 /* TripNowTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 357533B715B2ACA30074BD13 /* TripNowTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		357533AE15B2ACA30074BD13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3575337915B2ACA30074BD13 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3575338115B2ACA30074BD13;
+			remoteInfo = TripNow;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3575338215B2ACA30074BD13 /* TripNow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TripNow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3575338615B2ACA30074BD13 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3575338815B2ACA30074BD13 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3575338A15B2ACA30074BD13 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3575338E15B2ACA30074BD13 /* TripNow-Info.plist */ = {isa = PBXFileReference; path = "TripNow-Info.plist"; sourceTree = "<group>"; };
+		3575339015B2ACA30074BD13 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3575339215B2ACA30074BD13 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3575339415B2ACA30074BD13 /* TripNow-Prefix.pch */ = {isa = PBXFileReference; path = "TripNow-Prefix.pch"; sourceTree = "<group>"; };
+		3575339515B2ACA30074BD13 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		3575339615B2ACA30074BD13 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3575339915B2ACA30074BD13 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		3575339C15B2ACA30074BD13 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		3575339E15B2ACA30074BD13 /* MasterViewController.h */ = {isa = PBXFileReference; path = MasterViewController.h; sourceTree = "<group>"; };
+		3575339F15B2ACA30074BD13 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		357533A115B2ACA30074BD13 /* DetailViewController.h */ = {isa = PBXFileReference; path = DetailViewController.h; sourceTree = "<group>"; };
+		357533A215B2ACA30074BD13 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		357533A915B2ACA30074BD13 /* TripNowTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TripNowTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		357533AA15B2ACA30074BD13 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		357533B215B2ACA30074BD13 /* TripNowTests-Info.plist */ = {isa = PBXFileReference; path = "TripNowTests-Info.plist"; sourceTree = "<group>"; };
+		357533B415B2ACA30074BD13 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		357533B615B2ACA30074BD13 /* TripNowTests.h */ = {isa = PBXFileReference; path = TripNowTests.h; sourceTree = "<group>"; };
+		357533B715B2ACA30074BD13 /* TripNowTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TripNowTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3575337F15B2ACA30074BD13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3575338715B2ACA30074BD13 /* UIKit.framework in Frameworks */,
+				3575338915B2ACA30074BD13 /* Foundation.framework in Frameworks */,
+				3575338B15B2ACA30074BD13 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		357533A515B2ACA30074BD13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				357533AB15B2ACA30074BD13 /* SenTestingKit.framework in Frameworks */,
+				357533AC15B2ACA30074BD13 /* UIKit.framework in Frameworks */,
+				357533AD15B2ACA30074BD13 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3575337715B2ACA30074BD13 = {
+			isa = PBXGroup;
+			children = (
+				3575338C15B2ACA30074BD13 /* TripNow */,
+				357533B015B2ACA30074BD13 /* TripNowTests */,
+				3575338515B2ACA30074BD13 /* Frameworks */,
+				3575338315B2ACA30074BD13 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3575338315B2ACA30074BD13 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3575338215B2ACA30074BD13 /* TripNow.app */,
+				357533A915B2ACA30074BD13 /* TripNowTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3575338515B2ACA30074BD13 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3575338615B2ACA30074BD13 /* UIKit.framework */,
+				3575338815B2ACA30074BD13 /* Foundation.framework */,
+				3575338A15B2ACA30074BD13 /* CoreGraphics.framework */,
+				357533AA15B2ACA30074BD13 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3575338C15B2ACA30074BD13 /* TripNow */ = {
+			isa = PBXGroup;
+			children = (
+				3575339515B2ACA30074BD13 /* AppDelegate.h */,
+				3575339615B2ACA30074BD13 /* AppDelegate.m */,
+				3575339815B2ACA30074BD13 /* MainStoryboard_iPhone.storyboard */,
+				3575339B15B2ACA30074BD13 /* MainStoryboard_iPad.storyboard */,
+				3575339E15B2ACA30074BD13 /* MasterViewController.h */,
+				3575339F15B2ACA30074BD13 /* MasterViewController.m */,
+				357533A115B2ACA30074BD13 /* DetailViewController.h */,
+				357533A215B2ACA30074BD13 /* DetailViewController.m */,
+				3575338D15B2ACA30074BD13 /* Supporting Files */,
+			);
+			path = TripNow;
+			sourceTree = "<group>";
+		};
+		3575338D15B2ACA30074BD13 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3575338E15B2ACA30074BD13 /* TripNow-Info.plist */,
+				3575338F15B2ACA30074BD13 /* InfoPlist.strings */,
+				3575339215B2ACA30074BD13 /* main.m */,
+				3575339415B2ACA30074BD13 /* TripNow-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		357533B015B2ACA30074BD13 /* TripNowTests */ = {
+			isa = PBXGroup;
+			children = (
+				357533B615B2ACA30074BD13 /* TripNowTests.h */,
+				357533B715B2ACA30074BD13 /* TripNowTests.m */,
+				357533B115B2ACA30074BD13 /* Supporting Files */,
+			);
+			path = TripNowTests;
+			sourceTree = "<group>";
+		};
+		357533B115B2ACA30074BD13 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				357533B215B2ACA30074BD13 /* TripNowTests-Info.plist */,
+				357533B315B2ACA30074BD13 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3575338115B2ACA30074BD13 /* TripNow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 357533BB15B2ACA30074BD13 /* Build configuration list for PBXNativeTarget "TripNow" */;
+			buildPhases = (
+				3575337E15B2ACA30074BD13 /* Sources */,
+				3575337F15B2ACA30074BD13 /* Frameworks */,
+				3575338015B2ACA30074BD13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TripNow;
+			productName = TripNow;
+			productReference = 3575338215B2ACA30074BD13 /* TripNow.app */;
+			productType = "com.apple.product-type.application";
+		};
+		357533A815B2ACA30074BD13 /* TripNowTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 357533BE15B2ACA30074BD13 /* Build configuration list for PBXNativeTarget "TripNowTests" */;
+			buildPhases = (
+				357533A415B2ACA30074BD13 /* Sources */,
+				357533A515B2ACA30074BD13 /* Frameworks */,
+				357533A615B2ACA30074BD13 /* Resources */,
+				357533A715B2ACA30074BD13 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				357533AF15B2ACA30074BD13 /* PBXTargetDependency */,
+			);
+			name = TripNowTests;
+			productName = TripNowTests;
+			productReference = 357533A915B2ACA30074BD13 /* TripNowTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3575337915B2ACA30074BD13 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 3575337C15B2ACA30074BD13 /* Build configuration list for PBXProject "TripNow" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3575337715B2ACA30074BD13;
+			productRefGroup = 3575338315B2ACA30074BD13 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3575338115B2ACA30074BD13 /* TripNow */,
+				357533A815B2ACA30074BD13 /* TripNowTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3575338015B2ACA30074BD13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3575339115B2ACA30074BD13 /* InfoPlist.strings in Resources */,
+				3575339A15B2ACA30074BD13 /* MainStoryboard_iPhone.storyboard in Resources */,
+				3575339D15B2ACA30074BD13 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		357533A615B2ACA30074BD13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				357533B515B2ACA30074BD13 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		357533A715B2ACA30074BD13 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3575337E15B2ACA30074BD13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3575339315B2ACA30074BD13 /* main.m in Sources */,
+				3575339715B2ACA30074BD13 /* AppDelegate.m in Sources */,
+				357533A015B2ACA30074BD13 /* MasterViewController.m in Sources */,
+				357533A315B2ACA30074BD13 /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		357533A415B2ACA30074BD13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				357533B815B2ACA30074BD13 /* TripNowTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		357533AF15B2ACA30074BD13 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3575338115B2ACA30074BD13 /* TripNow */;
+			targetProxy = 357533AE15B2ACA30074BD13 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3575338F15B2ACA30074BD13 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3575339015B2ACA30074BD13 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3575339815B2ACA30074BD13 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3575339915B2ACA30074BD13 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		3575339B15B2ACA30074BD13 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3575339C15B2ACA30074BD13 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		357533B315B2ACA30074BD13 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				357533B415B2ACA30074BD13 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		357533B915B2ACA30074BD13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		357533BA15B2ACA30074BD13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		357533BC15B2ACA30074BD13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TripNow/TripNow-Prefix.pch";
+				INFOPLIST_FILE = "TripNow/TripNow-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		357533BD15B2ACA30074BD13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TripNow/TripNow-Prefix.pch";
+				INFOPLIST_FILE = "TripNow/TripNow-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		357533BF15B2ACA30074BD13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TripNow.app/TripNow";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TripNow/TripNow-Prefix.pch";
+				INFOPLIST_FILE = "TripNowTests/TripNowTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		357533C015B2ACA30074BD13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TripNow.app/TripNow";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TripNow/TripNow-Prefix.pch";
+				INFOPLIST_FILE = "TripNowTests/TripNowTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3575337C15B2ACA30074BD13 /* Build configuration list for PBXProject "TripNow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				357533B915B2ACA30074BD13 /* Debug */,
+				357533BA15B2ACA30074BD13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		357533BB15B2ACA30074BD13 /* Build configuration list for PBXNativeTarget "TripNow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				357533BC15B2ACA30074BD13 /* Debug */,
+				357533BD15B2ACA30074BD13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		357533BE15B2ACA30074BD13 /* Build configuration list for PBXNativeTarget "TripNowTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				357533BF15B2ACA30074BD13 /* Debug */,
+				357533C015B2ACA30074BD13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3575337915B2ACA30074BD13 /* Project object */;
+}
